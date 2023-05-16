@@ -20,10 +20,20 @@ yarn add nextleton
 
 ## Usage
 
+### Instant Singleton
+
 ```typescript
 import { nextleton } from "nextleton";
 
 export const myFoo = nextleton("my-foo", () => initializeMyFoo());
+```
+
+### Lazy Singleton
+
+```typescript
+import { lazyNextleton } from "nextleton";
+
+export const getMyFoo = lazyNextleton("my-foo", () => initializeMyFoo());
 ```
 
 ## Caveats
