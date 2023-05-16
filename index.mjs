@@ -1,11 +1,9 @@
-const _global = global;
-
 export function nextleton(key, fn) {
   return ((glocal) => {
     glocal[key] = glocal[key] ?? fn();
 
     return glocal[key];
-  })(_global);
+  })(globalThis);
 }
 
 export function lazyNextleton(key, fn) {
@@ -14,5 +12,5 @@ export function lazyNextleton(key, fn) {
       glocal[key] = glocal[key] ?? fn();
 
       return glocal[key];
-    })(_global);
+    })(globalThis);
 }
