@@ -1,0 +1,20 @@
+{
+  "name": "nextleton",
+  "version": "0.0.1",
+  "packageManager": "yarn@3.5.1",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "types": "index.d.ts",
+  "module": "index.mjs",
+  "author": {
+    "name": "Karl J. Overå",
+    "email": "k@rl.run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:karl-run/nextleton.git"
+  }
+}
