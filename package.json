@@ -1,6 +1,6 @@
 {
   "name": "nextleton",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "packageManager": "yarn@3.5.1",
   "license": "MIT",
   "files": [
@@ -15,6 +15,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:karl-run/nextleton.git"
+    "url": "https://github.com/karl-run/nextleton.git"
   }
 }
