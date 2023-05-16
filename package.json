@@ -17,5 +17,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/karl-run/nextleton.git"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8"
   }
 }
