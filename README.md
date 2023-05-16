@@ -34,6 +34,10 @@ export const myFoo = nextleton("my-foo", () => initializeMyFoo());
 import { lazyNextleton } from "nextleton";
 
 export const getMyFoo = lazyNextleton("my-foo", () => initializeMyFoo());
+
+// This can also be reset on demand (useful for tests)
+
+getMyFoo.reset() // this will re-create the singleton
 ```
 
 ## Caveats
