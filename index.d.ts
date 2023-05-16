@@ -3,8 +3,8 @@ export declare function nextleton<Key extends string, Result>(
   fn: () => Result
 ): Result;
 
-declare interface LazyNextleton {
-  <Result>(fn: () => Result): () => Result;
+declare interface LazyNextleton<Result> {
+  (fn: () => Result): () => Result;
 
   reset: () => void;
 }

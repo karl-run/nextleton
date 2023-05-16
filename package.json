@@ -14,11 +14,15 @@
     "name": "Karl J. Overå",
     "email": "k@rl.run"
   },
+  "scripts": {
+    "test": "tsc index.d.ts --noEmit"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/karl-run/nextleton.git"
   },
   "devDependencies": {
-    "prettier": "^2.8.8"
+    "prettier": "^2.8.8",
+    "typescript": "^5.0.4"
   }
 }
