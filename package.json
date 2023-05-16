@@ -1,6 +1,6 @@
 {
   "name": "nextleton",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "packageManager": "yarn@3.5.1",
   "license": "MIT",
   "files": [
@@ -8,6 +8,7 @@
     "index.d.ts"
   ],
   "types": "index.d.ts",
+  "main": "index.mjs",
   "module": "index.mjs",
   "author": {
     "name": "Karl J. Overå",
