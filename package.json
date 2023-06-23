@@ -1,6 +1,6 @@
 {
   "name": "nextleton",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "packageManager": "yarn@3.5.1",
   "license": "MIT",
   "files": [
