@@ -5,13 +5,13 @@ type Options = {
 export declare function nextleton<Key extends string, Result>(
   key: Key,
   fn: () => Result,
-  option: Options,
+  option?: Options,
 ): Result;
 
 export declare function lazyNextleton<Key extends string, Result>(
   key: Key,
   fn: () => Result,
-  option: Options,
+  option?: Options,
 ): {
   (): Result;
   reset(): void;
